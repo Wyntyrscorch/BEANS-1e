@@ -1,0 +1,27 @@
+{
+"Actor": {
+"character": {
+"attributes": {
+"str": { "label": "Strength", "value": 10 },
+"dex": { "label": "Dexterity", "value": 10 },
+"end": { "label": "Endurance", "value": 10 },
+"int": { "label": "Intellect", "value": 10 },
+"awr": { "label": "Awareness", "value": 10 },
+"cha": { "label": "Charisma", "value": 10 },
+"san": { "label": "Sanity", "value": 10 },
+"luk": { "label": "Luck", "value": 10 }
+},
+"conditions": {
+"stress": { "die": "d8" }
+}
+}
+},
+"Item": {
+"weapon": {
+"durability": {
+"die": "d8",
+"broken": false
+}
+}
+}
+}

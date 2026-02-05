@@ -1,0 +1,19 @@
+{
+  "id": "beans",
+  "title": "BEANS",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+"authors": [{ "name": "Wyntyr Payne" }],
+"esmodules": ["scripts/beans.js"],
+"styles": ["styles/beans.css"],
+"languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
+"documentTypes": {
+"Actor": { "character": {}, "npc": {} },
+"Item": { "weapon": {}, "armor": {}, "gear": {} }
+},
+"gridDistance": 5,
+"gridUnits": "ft"
+}
